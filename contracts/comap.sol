@@ -18,11 +18,11 @@ contract Comap is ERC20Base {
         string memory _name,
         string memory _symbol
     )
-        ERC20Base(
-            _defaultAdmin,
-            _name,
-            _symbol
-        )
+    ERC20Base(
+        _defaultAdmin,
+        _name,
+        _symbol
+    )
     {
         // 承認チェックをデフォルトで有効に設定
         _isCheckRequired = true;
